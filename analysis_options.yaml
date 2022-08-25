@@ -10,6 +10,8 @@
 include: package:flutter_lints/flutter.yaml
 
 linter:
+    prefer_const_constructors: false
+    prefer_const_literals_to_create_immutables: false
   # The lint rules applied to this project can be customized in the
   # section below to disable rules from the `package:flutter_lints/flutter.yaml`
   # included above or to enable additional rules. A list of all available lints
